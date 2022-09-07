@@ -1,0 +1,122 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+h2{
+  font-weight: 700;
+  font-size: 3rem;
+}
+h3{
+  font-weight: 600;
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+  padding:0;
+}
+
+/* Download Button */
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 20%;
+  right: 25%;
+  transform: rotate(27deg);
+  position: absolute;
+}
+
+
+/* Features of tindog */
+
+#features i{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+#features i:hover{
+  color: #ff4c68;
+
+}
+#features{
+  padding: 5% 14%;
+  background-color: white;
+  position: relative;
+}
+.featbox{
+  text-align: center;
+  padding: 5%;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item{
+  padding: 5% 14%;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 10%;
+  margin: 2% 5% 7%
+}
+#pricing{
+  padding: 100px;
+}
+.price-head{
+  text-align: center;
+}
+@media (max-width:1028px) {
+  .title-img{position: static;transform: rotate(0deg);width: 60%;}
+  #title{text-align: center;}
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+#cta h3{
+  font-size: 3.4rem;
+}
+#footer{
+  text-align: center;
+  padding: 3%;
+}
